@@ -15,22 +15,11 @@ int main() {
     cin >> num2;
 
     switch (op) {
-        case '+':
-            cout << "Result: " << num1 + num2;
-            break;
+       
         case '-':
             cout << "Result: " << num1 - num2;
             break;
-        case '*':
-            cout << "Result: " << num1 * num2;
-            break;
-        case '/':
-            if (num2 != 0)
-                cout << "Result: " << num1 / num2;
-            else
-                cout << "Error! Division by zero is not allowed.";
-            break;
-        default:
+      
             cout << "Invalid operator!";
     }
 
